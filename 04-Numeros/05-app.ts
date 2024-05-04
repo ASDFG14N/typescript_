@@ -1,0 +1,21 @@
+// Veamos un par de funciones para convertir a números
+
+const numero1: string = "20";
+const numero2: string = "20.2";
+const numero3: string = "Uno";
+const numero4: number = 30;
+
+console.log(numero1);
+
+// Convertir de Strings a Números flotantes o Enteros
+
+console.log(Number.parseInt(numero1)); // Convertir de String a Número
+console.log(Number.parseFloat(numero2)); // Convertir a número con decimales
+console.log(Number.parseInt(numero3));
+
+// Revisar si un número es entero
+console.log(Number.isInteger(numero4)); // Revisar si un número es entero o no
+console.log(Number.isInteger(numero3)); //
+
+// Convertir String a numero
+console.log(numero4.toString());
